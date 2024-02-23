@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1d3968;
+}
+
+/* Header */
+header .contenedor-biblioteca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .itcj {
+    width: auto;
+    margin-right: 200px;
+}
+
+header .gob {
+    margin-right: 10px;
+}
+
+header .txt {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Main */
+main .contenedor {
+    display: flex;
+}
+
+main .slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+main .slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 12s infinite alternate ease-in-out;
+}
+
+main .slider li {
+    width: 100%;
+    list-style: none;
+}
+
+main .slider img {
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+main .menu {
+    width: 200px;
+    height: 85px;
+    margin-left: 4px;
+}
+
+main .opcion {
+    width: 100%;
+    height: 100%;
+}
+
+main .txt {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* footer */
+footer .contenedor-end {
+    display: flexs;
+    margin-top: -1px;
+}
+
+footer .img {
+    width: 1204px;
+    height: auto;
+}
+
+footer .datos {
+    display: flex;
+    color: white;
+}
+
+footer .dato {
+    margin-right: 30px;
+}
+
+footer .linea {
+    margin-left: 40px;
+}
+
+footer .itcj{
+    display: flex;
+}
+
+footer .campus {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 90px;
+}
