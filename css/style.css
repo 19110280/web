@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #1d3968;
+}
+
+header .contenedor-biblioteca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .itcj {
+    width: auto;
+    margin-right: 200px;
+}
+
+header .gob {
+    margin-right: 10px;
+}
+
+header .txt {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    margin-top: 10px;
+}
+
+main .contenedor-carrusel {
+    position: relative;
+    width: 1000px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 0 8px 32px 0 #1d3968;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+main .carrusel {
+    width: 300%; /*Es la cantidad de imagenes que usaras*/
+    height: 100%;
+    display: flex;
+    
+  /*border: solid thin red;*/
+}
+
+main .slider-section {
+    width: calc(100% / 3); /*Se divide por la cantidad de imagenes a usar*/
+    height: 100%;
+}
+
+main .slider-section img {
+    width:100%;
+    height: 500px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+main .btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+    transform: translate(0, -50);
+    transition: .5s ease;
+    user-select: none;
+}
+
+main .btn-left:hover,
+.btn-right:hover {
+    background-color: rgb(129, 129, 129);
+    color: white;
+}
+
+main .btn-left {
+    left: 1px;
+}
+
+main .btn-right {
+    right: 1px;
+}
+
+main .contenedor {
+    position: relative;
+    display: flex;
+}
+
+main .menu {
+    width: 200px;
+    height: 85px;
+    margin-left: 4px;
+}
+
+main .opcion {
+    width: 100%;
+    height: 100%;
+}
+
+main .txt {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* footer */
+footer .contenedor-end {
+    display: flexs;
+    margin-top: -60px;
+    background-color: #1d3968;
+}
+
+footer .img {
+    width: 100%;
+    height: auto;
+}
+
+footer .datos {
+    display: flex;
+    color: white;
+}
+
+footer .dato {
+    margin-right: 30px;
+}
+
+footer .linea {
+    margin-left: 40px;
+}
+
+footer .itcj {
+    display: flex;
+}
+
+footer .campus {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 90px;
+}
+
+footer .aniversario {
+    display: flex;
+    margin-left: 490px;
+    height: 120px;
+}
